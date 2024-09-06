@@ -9,9 +9,6 @@ metadata:
     github.com/workflows: publish.yml,remove.yml
     kong-manager/service-name: app.app-demo-spec.80
     kong-manager/instance: /kong-manager/cluster-ec2-kong-apr
-    kong-manager/specs: 
-    - .platform/spec-api.yaml
-    - .platform/spec-api-2.yaml
 spec:
   type: devops
   lifecycle: experimental
